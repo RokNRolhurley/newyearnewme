@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-color: #FFFFFF;
+    background-image: url("../images/banner/banner1.png");
+    width: 1700px;
+    height: 808px;
+    text-align: right;
+    background-repeat: no-repeat;
+
+}
+
+.banner{
+    text-align: right;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+    padding: 216px 230px 24px 845px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color:#151414;
+    padding: 24px 230px 0 876px;
+
+}
+
+.btn-primary{
+    width: 160px;
+    height: 44px;
+    border: 0;
+    border-radius: 5px;
+    color:white;
+    margin: 24px 230px 0 876px;
+    background-color: orangered;
+
+
+}
+
+
+.positive-mindset{
+    background-image: url(/images/watch.png);
+}
+
+/* Skill styles */
+
+
+
+/* Future styles */
+.contact{
+    color: #FFFFFF;
+    display: flex;
+    font-family: 'Work Sans';
+    font-style: normal;
+    gap: 100px;
+    background: black;
+    
+    
+}
+
+.section-title{
+    font-size: 45px;
+    
+    margin-top: 130px ;
+    margin-left: 230px ;
+    
+}
+.section-description{
+    font-weight: 400;
+    font-size: 16px;
+    
+    margin-left: 230px ;
+    
+}
+
+.section-header{
+    font-weight: 600;
+    font-size: 25px; 
+    color: #FFFFFF;
+    Margin-top: 130px ;
+    margin-left: 330px ;
+}
+
+.section-email{
+    margin-left: 230px;
+}
+
+.section-phone{
+    margin-left: 230px;
+}
+.contact a{
+    text-decoration: none;
+    margin-left: 230px;
+    
+}
+.btn-secondry{
+    width: 100px;
+    height: 34px;
+    border-radius: 5px;
+    color:#FFFFFF; 
+    background-color: #005FAC; 
+    margin-left: 330px ;
+}
+
+.email{
+    background-color: black;
+    margin-left: 330px ;
+    margin-bottom: 10px;
+    
+}
