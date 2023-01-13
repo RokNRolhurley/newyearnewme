@@ -1,11 +1,12 @@
 * {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    
 }
 .header{
-    background-color: #FFFFFF;
     background-image: url("../images/banner/banner1.png");
-    width: 1700px;
+    background-size: cover;
+    width: 100%;
     height: 808px;
     text-align: right;
     background-repeat: no-repeat;
@@ -39,16 +40,98 @@
     margin: 24px 230px 0 876px;
     background-color: orangered;
 
+}
 
+/* about styles */
+.about-title{
+    display: flex;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+
+.image2{
+    margin-top: 131px;
+    margin-left: 206px;
+    margin-right: 87px;
+
+}
+.section-title{
+    color: #151414;
+    padding-top: 340px;
+    padding-right: 322px;
+    padding-left: 87px;
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+.section-description{
+    color: #444343;
+    padding-top: 24px;
+    padding-right:322px;
+    padding-left: 87px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.list-work{
+    padding-top: 16px;
+    padding-left: 87px;
+    padding-right: 322px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
 }
 
 
-.positive-mindset{
-    background-image: url(/images/watch.png);
-}
 
 /* Skill styles */
 
+.what-i-do{
+    text-align: center;
+    padding: 0 230px 0 230px;
+    
+}
+
+.what-i-do .section-title{
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 380px;
+    padding-bottom: 55px;
+
+}
+
+.what-i-do .skills-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill .skill-title{
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.skill .skill-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* positive mindset */
+
+.mindset{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    margin-left: 230px;
+    border-radius: 8px;
+}
+.positive .section-title{
+    font-weight: 700;
+    font-size: 40px
+
+}
 
 
 /* Future styles */
@@ -63,18 +146,18 @@
     
 }
 
-.section-title{
+.contact .section-title{
+    color: #FFFFFF;
     font-size: 45px;
-    
     margin-top: 130px ;
     margin-left: 230px ;
     
 }
-.section-description{
+.contact .section-description{
     font-weight: 400;
     font-size: 16px;
-    
     margin-left: 230px ;
+    color: #FFFFFF;
     
 }
 
@@ -99,12 +182,13 @@
     
 }
 .btn-secondry{
-    width: 100px;
+    width: 120px;
     height: 34px;
     border-radius: 5px;
-    color:#FFFFFF; 
-    background-color: #005FAC; 
+    color:orange; 
+    background-color: white; 
     margin-left: 330px ;
+    
 }
 
 .email{
